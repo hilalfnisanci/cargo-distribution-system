@@ -56,7 +56,7 @@ namespace yazlab_proje1
 
         private void Map2_Load(object sender, EventArgs e)
         {
-            GMapProviders.GoogleMap.ApiKey = @"AIzaSyCOzizXBIp-X3KMZ5TEwijwHa_7kv6DEcw";
+            GMapProviders.GoogleMap.ApiKey = @"your api key will come here";
             GMaps.Instance.Mode = AccessMode.ServerAndCache;
             map2.CacheLocation = @"cache";
             map2.DragButton = MouseButtons.Left;
